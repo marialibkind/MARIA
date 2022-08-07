@@ -1,0 +1,251 @@
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+   position: relative;
+  background-color: #f2f2f2;
+    /* выше установили ограничения для секции */
+  }
+
+.logo_place_header{
+   
+    margin: 30px 64px;
+    height:62px;
+    width:228px;
+  positiom:absolute;
+  top:0;
+  left:0;
+}
+
+.header__title{
+    color:#000;
+    line-height: 96px;
+    font-size:102px;
+    font-style:600;
+    width:730px;
+    margin-left:64px;
+    position: absolute;
+    center:0;
+    left:0;
+}
+
+.header__subtitle{
+    color:#000;
+    line-height: 25px;
+    font-size:18px;
+    font-style:normal;
+    width:388px;
+    margin-left: 64px;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.header__link{
+    color:#2f80ed;
+    left: 0;
+    bottom: 0;
+}
+.header__main-illustration{
+    width:765px;
+    height:605px;
+    position:absolute;
+    right:0;
+  bottom:0;
+}
+
+ .header__square-pic{
+    background-color:#2f80ed;
+    width:568px;
+    height:568px;
+    margin-top:64px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.description{
+    color:#000;
+    margin-bottom:100px;
+    margin-top:100px;
+}
+.two-columns{
+    color:#000;
+    display:flex;
+    padding-top:100px;
+    padding-bottom:100px;
+    display:flexbox;
+    flex-direction: row;
+    justify-content:center;
+    margin: 0 auto
+}
+.two-columns__brief{
+    color:#2f80ed;
+    line-height:1.2;
+    font-size:18px;
+    font-style:normal;
+   width:175px;
+}
+ .two-columns__main-text{
+    color:#000;
+    display:flex;
+    flex-direction:column;
+    align-items: stretch;
+    line-height:34px;
+    font-size:24px;
+}
+.two-columns__paragraph{
+    color:#000;
+    margin-bottom:30px;
+   font-style:normal;
+}
+.two-columns__span-accent{
+    color:#000;
+    font-weight:bold;
+    line-height:34px;
+    font-size:24px;
+    font-style:600;
+}
+.digits{
+  
+}
+.section-title{
+    line-height:1.15;
+    font-size:60px;
+    font-style:600;
+    color:#000;
+    width:60%;
+    margin: 0 auto;
+   margin-bottom:20px;
+}
+.section-subtitle{
+    line-height:34px;
+    font-size:24px;
+    font-style: normal;
+    width:60%;
+}
+.table{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width:1100px;
+}
+.table__cell{
+ display:flexbox;
+  width:250px;
+}
+.table__heading{
+    color:#000;
+    line-height:1.15;
+    font-size:24px;
+    font-style:600;
+}
+.table__text{
+    color:#000;
+    line-height:1.2;
+    font-size:18px;
+    font-style:normal;
+}
+.feynman{
+  height:890px;
+   background-image:url(feynman.png);
+   position:relative;
+  background-color: #f2f2f2;
+}
+.feynman__title{
+   line-height:1.15px;
+   font-size:120px;
+   font-style:600;
+  position:relative;
+  top:0;
+  center:0;
+  
+}
+.feynman__subtitle{
+    line-height:51px;
+    font-size:36px;
+    font-style:normal;
+    positiom:absolute;
+    center:0; 
+}
+.feynman__link{
+    margin-top:50%;
+    margin-right:48px;
+    color:#2f80ed;
+    line-height:51px;
+    font-size:36px;
+    font-style:normal;
+}
+.feynman__main-illustration{
+  position:abcolute;
+  bottom:0;
+  right:0;
+}
+
+.kaufman{
+  background-color: #1f1f1f;
+}
+.section-title_theme_dark{
+  width:60%;
+  margin-top:90px;
+  margin-bottom:20px;
+  position:relative;
+  line-height:1.15;
+    font-size:60px;
+    font-style:600;
+   color:#f2f2f2;
+}
+.section-subtitle_theme_dark{
+  width:60%;
+  position:absolute;
+  line-height:34px;
+    font-size:24px;
+    font-style:normal;
+   color:#f2f2f2;
+}
+.table_theme_dark{
+  display:flex;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:90px;
+}
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+  }
+.table__heading_theme_dark{
+  margin-bottom:20px;
+  line-height:1.15;
+    font-size:24px;
+    font-style:600;
+  color:#f2f2f2;
+}
+.table__text_theme_dark{
+  line-height:1.2;
+    font-size:18px;
+    font-style:normal;
+  color:#f2f2f2;
+}
+.kaufman_triangle{
+  height:877px;
+  wigth:877px;
+  display:flex;
+  position:absolute;
+}
+
+body{
+    font-family:'Helvetica Neue', 'Arial';
+}
+
+.page {
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
