@@ -106,7 +106,9 @@ bottom:0;
   font-style:600;
 }
 .digits{
-
+display:flex;
+flex-direction:column;
+align-items:center;
 }
 .section-title{
   line-height:1.15;
@@ -115,12 +117,12 @@ bottom:0;
   color:#000;
   width:60%;
   margin: 0 auto;
- margin-bottom:20px;
+  margin-bottom:20px;
 }
 .section-subtitle{
   line-height:34px;
   font-size:24px;
-  font-style: normal;
+  font-style:normal;
   width:60%;
 }
 .table{
@@ -151,31 +153,28 @@ width:250px;
 height:890px;
  background-image:url(feynman.png);
  position:relative;
-background-color: #f2f2f2;
+ background-color: #f2f2f2;
+ display:flex;
+flex-direction:column;
+align-items:center;
 }
 .feynman__title{
- line-height:1.15px;
+ line-height:1.15;
  font-size:120px;
  font-style:600;
-position:relative;
-top:0;
-center:0;
-
 }
 .feynman__subtitle{
   line-height:51px;
   font-size:36px;
   font-style:normal;
-  positiom:absolute;
-  center:0; 
 }
 .feynman__link{
-  margin-top:50%;
-  margin-right:48px;
   color:#2f80ed;
   line-height:51px;
   font-size:36px;
   font-style:normal;
+  positiom:absolute;
+  right:0;
 }
 .feynman__main-illustration{
 position:abcolute;
@@ -185,37 +184,39 @@ right:0;
 
 .kaufman{
 background-color: #1f1f1f;
+position:relative;
+display:flex;
+flex-direction:column;
+align-items:center;
+
 }
 .section-title_theme_dark{
 width:60%;
 margin-top:90px;
 margin-bottom:20px;
-position:relative;
-center:0;
 line-height:1.15;
-  font-size:60px;
-  font-style:600;
- color:#f2f2f2;
+font-size:60px;
+font-style:600;
+color:#f2f2f2;
 }
 .section-subtitle_theme_dark{
 width:60%;
-position:absolute;
 line-height:34px;
 font-size:24px;
 font-style:normal;
 color:#f2f2f2;
+align-items:center;
 }
 .table_theme_dark{
- display:flex;
-  justify-content:space-between;
-  flex-direction:row;
-  flex-wrap: wrap;
-  width:1100px;
- list-style:none;
+display:flex;
+justify-content:space-between;
+flex-direction:row;
+flex-wrap: wrap;
+width:1100px;
+list-style:none;
 margin-right:auto;
 margin-left:auto;
 margin-bottom:90px;
-
 }
 .table__cell_theme_dark {
   width: 200px;
@@ -224,17 +225,17 @@ margin-bottom:90px;
   margin-top: 80px;
 }
 .table__heading_theme_dark{
-margin-bottom:20px;
-line-height:1.15;
-  font-size:24px;
-  font-style:600;
-color:#f2f2f2;
+ margin-bottom:20px;
+ line-height:1.15;
+ font-size:24px;
+ font-style:600;
+ color:#f2f2f2;
 }
 .table__text_theme_dark{
-line-height:1.2;
+  line-height:1.2;
   font-size:18px;
   font-style:normal;
-color:#f2f2f2;
+  color:#f2f2f2;
 }
 .kaufman_triangle{
 height:877px;
@@ -262,3 +263,6 @@ body{
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
+
+
